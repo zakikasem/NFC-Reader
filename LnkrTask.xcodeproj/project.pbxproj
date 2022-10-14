@@ -51,6 +51,7 @@
 		3585416528F8DCFE00609119 /* LnkrTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LnkrTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3585416928F8DCFE00609119 /* LnkrTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LnkrTaskUITests.swift; sourceTree = "<group>"; };
 		3585416B28F8DCFE00609119 /* LnkrTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LnkrTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3585417828F8E0BC00609119 /* LnkrTask.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LnkrTask.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 		3585414428F8DCFB00609119 /* LnkrTask */ = {
 			isa = PBXGroup;
 			children = (
+				3585417828F8E0BC00609119 /* LnkrTask.entitlements */,
 				3585414528F8DCFB00609119 /* AppDelegate.swift */,
 				3585414728F8DCFB00609119 /* SceneDelegate.swift */,
 				3585414928F8DCFB00609119 /* ViewController.swift */,
@@ -439,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LnkrTask/LnkrTask.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -466,6 +469,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LnkrTask/LnkrTask.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
